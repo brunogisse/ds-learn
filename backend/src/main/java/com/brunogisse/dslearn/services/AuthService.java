@@ -16,7 +16,7 @@ public class AuthService {
 	@Autowired
 	private UserRepository userRepository;
 	
-	@Transactional()
+	@Transactional(readOnly = true)
 	public User authenticated() {
 		try {
 			String username = SecurityContextHolder.getContext().getAuthentication().getName();
