@@ -18,6 +18,9 @@ public class Task extends Lesson{
 	
 	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant dueDate;
+	
+	public Task() {
+	}
 
 	public Task(Long id, String title, Integer position, Section section, String description, Integer questionCount,
 			Integer approvalCount, Double weight, Instant dueDate) {
