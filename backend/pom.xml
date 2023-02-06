@@ -59,7 +59,7 @@
 		<dependency>
 			<groupId>org.springframework.security.oauth.boot</groupId>
 			<artifactId>spring-security-oauth2-autoconfigure</artifactId>
-		</dependency>
+		</dependency>	
 	</dependencies>
 	<build>
 		<plugins>
